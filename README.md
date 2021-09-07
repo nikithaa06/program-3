@@ -4,7 +4,7 @@ public class Biggernumber
 {
   public static void main(String[]args)
   {
-    int a,b,c;
+    int x,y,z;
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the first number");
     a=sc.nextInt();
@@ -12,17 +12,17 @@ public class Biggernumber
     b=sc.nextInt();
     System.out.println("Enter the third number");
     c=sc.nextInt();
-    if(a>b&&a>c)
+    if(x>y&&x>z)
     {
-      System.out.println("Largest number is"+a);
+      System.out.println("Largest number is"+x);
     }
-    else if(b>a&&b>c)
+    else if(y>x&&y>z)
     {
-      System.out.println("Largest number is"+b);
+      System.out.println("Largest number is"+y);
     }
-    else if(c>a&&c>b)
+    else if(z>x&&z>y);
     {
-    System.out.println("Largest number is"+c);
+    System.out.println("Largest number is"+z;
     }
   }
 }
